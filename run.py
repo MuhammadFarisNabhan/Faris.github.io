@@ -4,4 +4,4 @@ app = create_app()
 
 if __name__ == "__main__":
     # with create_app.app_context():
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
