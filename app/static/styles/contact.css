@@ -1,0 +1,119 @@
+/* MAIN */
+.mainContainer{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+}
+
+.mainContainer .mainContent{
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    width: 90%;
+}
+
+/* PERSON */
+.mainContent .contactPerson{
+    display:flex;
+    flex-direction: column;
+    width: 650px;
+    padding: 20px 30px;
+    font-family: "Roboto";
+}
+
+.contactPerson .contactPersonTitle{
+    font-size: 2.5rem;
+}
+
+.contactPerson .contactPersonDesc{
+    margin: 32px 0;
+    text-align: justify;
+}
+
+.contactPerson .contactPersonDesc p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+.contactPerson .contactPersonSub ul{
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.contactPersonSub ul li{
+    margin-bottom: 30px;
+}
+
+.contactPersonSub ul li h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* FORM */
+.mainContent .contactForm{
+    width: 650px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    box-shadow: -17px 15px 27px black;
+}
+
+.contactForm .contactPersonTitle{
+    font-size: 2.5rem;
+}
+
+.contactForms{
+    width: 100%;
+    height: 100%;
+}
+
+.contactForms .formItem{
+    width: 100%;
+    height: auto;
+    margin: 45px 0;
+    padding: 0px 65px;
+}
+
+.contactForms .formItem label{
+
+    font-size: 1.2rem;
+}
+
+.contactForms .formItem input{
+    width: 100%;
+    height: 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contactForms .formItem input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3d3c3c;
+}
+
+.contactForms .btnSubmit{
+    display: flex;
+    margin: 80px 0px 0px;
+}
+
+.btnSubmit a button{
+    padding: 25px 45px;
+    font-size: 1.2rem;
+    border: none;
+    background-color:none;
+}
+
+.btnSubmit a button:hover{
+    border: 1px solid #333232;
+    background-color: white;
+}
+
+.btnSubmit a button:focus{
+    border: 1px solid #3d3c3c;
+    background-color: azure;
+}

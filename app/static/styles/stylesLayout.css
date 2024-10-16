@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    /* background: radial-gradient(circle, #ff7e5f, #feb47b, #86e3ce); */
+}
+
+.containerIndex{
+    display:grid;
+    grid-template-columns: auto 2fr auto ;
+    position:absolute;
+    width: 100%;
+    height: 713px;
+}
+
+/* SOSMED */
+.sosmedContainer{
+    display: grid;
+    grid-template-columns: auto;
+    height: 500px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.sosmedContent{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.sosmedContent ul{
+    list-style: none;
+}
+
+.sosmedContent ul li{
+    padding: 12px 0 0;
+}
+
+.sosmedContent ul li a i{
+    font-size: 1.9rem;
+    color: blue;
+}
+
+/* NAVIGATION */
+.navContainer{
+    display: grid;
+    grid-template-columns: auto;
+    height: 100%;
+}
+
+.navContent{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    font-family: "Roboto";
+}
+
+.navContent i {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.text_vertically{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-orientation: mixed;
+    margin: 15px 5px;
+}

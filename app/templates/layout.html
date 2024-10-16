@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <link rel="icon" href="../static/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../static/styles/stylesLayout.css">
+    <link rel="stylesheet" href="../static/styles/stylesNavbar.css">
+
+    {% block head %}{% endblock  %}
+</head>
+<body>
+    {% include "navbar.html" %}
+    <div class="containerIndex">
+        <div class="sosmedContainer">
+            <div class="sosmedContent">
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                    </li>                   
+                    <li>
+                        <a href="">
+                            <i class="uil uil-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+        {% block body %}{% endblock  %}
+        <div class="navContainer">
+            <div class="navContent">
+                <a href="#" id="up">
+                    <i class="uil uil-angle-double-up"></i>
+                </a>
+                <p class="text_vertically" id="text">
+                   PORTOFOLIO
+                </p>
+                <a href="#" id="bottom">
+                    <i class="uil uil-angle-double-down"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% block javascript %}{% endblock  %}
+    <script src="../static/javascript/navigation.js"></script>
+</body>
+</html>
